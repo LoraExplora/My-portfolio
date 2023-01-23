@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <header>
+        <p>
+            <b><i>Lora Antonova</Lora></b></i>
+        </p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h3>About me</h3>
+
+            <img src="lora-pic.jpg">
+            <article>
+                <i>Thanks for your interest, here
+                    is a quick story of me and this
+                    website.
+                    <hr color="black">
+                    I am a Junior QA Engineer, willing to upgrade my knowledge and skills.
+                    At the moment I am being part of a Bulgarian startup company and at the same Times I
+                    am learning and practicing my HTML and CSS.
+                    <hr color="black">
+                    My job is to ensure that the final product follows the organization’s quality
+                    standards before a product or service is delivered to the customer. A Quality
+                    Assurance Engineer has many responsibilities, such as preparing quality assurance
+                    policies, performing routine inspections and working with various teams to correct
+                    issues that arise in the production process.
+                    <hr color="black">
+                    This website is part of my HTMl & CSS learning program that I follow in order to be
+                    more and more useful for the team.
+                    Thanks again for reading this,
+                    because of people like you, it
+                    exists and prospers!
+                    <hr color="black">
+                    Regards,
+
+                    <br>
+                    <b>Lora</b>
+                </i>
+            </article>
+        </section>
+    </main>
+
+
+
+
+    <!--Projects(start)-->
+    <table id="projects" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="Verdana" size="6" color="#1B2631">
+                                Projects
+                            </font>
+                            <hr color="#1B2631" width="90">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="10">
+                            <font face="Times New Roman" size="5" color="#1B2631">
+                                <ul>
+                                    <li>
+                                        Formula1 Tribute website
+                                        <a href="https://loratheqa.github.io/f1website-exercise/" target="_blank"
+                                            rel="noopener noreferrer" style="text-decoration:none">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#1B2631">
+                                        Survey lunch form
+                                        <a href="https://loratheqa.github.io/lunch-poll/" target="_blank"
+                                            rel="noopener noreferrer" style="text-decoration:none" color="#c2c0c3">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#1B2631">
+                                        Portfolio
+                                        <a href="https://loratheqa.github.io/portfolio/" target="_blank"
+                                            rel="noopener noreferrer" style="text-decoration:none" color="#1B2631">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+
+                            </font>
+                        </td>
+
+                        <td width="50%">
+                            <img src="lora-projects.jpg" alt="Project" width="100%">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Projects(end)-->
+
+    <!--Achievement(start)-->
+    <table id="achievements" border="0" width="100%" cellpadding="2" cellspacing="1" background-color="pink">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle">
+                            <font face="Verdana" size="6" color="black">
+                                Achievements
+                                <hr color="black" width="100">
+                            </font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <font face="Verdana" size="4" color="black">
+                                <ul>
+                                    <li><b>Manual Software Testing.</b>
+                                        <ul>
+                                            <li>
+                                                October, 2022
+                                            </li>
+                                            <li>
+                                                Software Testing Foundations; SDLC; Testing techniques and Web Services.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <hr color="black">
+
+
+                                        <b>Bachelor in Journalism.</b>
+                                        <ul>
+                                            <li>
+                                                June, 2022
+                                            </li>
+                                            <li>
+                                                Successfully finished my bachelor's in Journalism in Sofia University.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <hr color="black">
+
+
+                                        <b>Cambridge Advanced Certificate.</b>
+                                        <ul>
+                                            <li>
+                                                February, 2015
+                                            </li>
+                                            <li>
+                                                It is the in-depth, high-level qualification that shows you have the
+                                                language skills that employers and universities are looking for.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <hr color="black">
+
+                                </ul>
+
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Achievement(end)-->
+
+
+    <!--Contact(start)-->
+    <table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="Verdana" size="6" color="white">
+                                Contact me via the form below:
+                            </font>
+                            <hr color="white" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="50%" cellpadding="15" cellspacing="0" align="center"
+                                bgcolor="purple">
+                                <tr>
+                                    <td width="30%">
+                                        <hr color="white">
+                                        <font face="Verdana" size="4" color="white">
+                                            Name
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <input type="text" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="white">
+                                            Email
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#154360">
+                                            <input type="email" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="white">
+                                            Number
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#154360">
+                                            <input type="number" size="12">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="white">
+                                            Message
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#154360">
+                                            <textarea rows="5" cols="37">
+											</textarea>
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+
+                                    </td>
+                                    <td width="70%">
+                                        <button type="Submit">
+                                            <font face="Verdana" size="4" color="black">
+                                                <b>Submit</b>
+                                            </font>
+                                        </button>
+                                        <hr color="black">
+                                        <hr color="black">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Contact(end)-->
+
+
+    <!--Footer1(start)-->
+    <table id="footer" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="white">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="13%" valign="top">
+                            <b>LinkedIn</b>
+                            <a href="https://www.linkedin.com/in/lora-antonova/" target="_blank"
+                                rel="noopener noreferrer" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>GitHub</b>
+                            <a href="https://github.com/LoraTheQA" target="_blank" rel="noopener noreferrer"
+                                style="text-decoration:none">
+                                ➲
+                            </a>
+                            </td\>
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Instagram</b>
+                            <a href="https://www.instagram.com/pieceoflora/?hl=en" target="_blank"
+                                rel="noopener noreferrer" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Email</b>
+                            <a href="https://www.icloud.com/" target="_blank" rel="noopener noreferrer"
+                                style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Website</b>
+                            <a href="https://pieceoflora.wordpress.com/" target="_blank" rel="noopener noreferrer"
+                                style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Footer1(end)-->
+
+
+    <!--Footer2(start)-->
+    <table id="footer" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="pink">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="80%" valign="top">
+                            <font face="Verdana" color="black" size="4">
+                                Designed by Lora Antonova.
+                                <i>All rights reserved.</i>
+                            </font>
+                        </td>
+
+                        <td width="10%">
+                            <font face="arial" color="#B7950B " size="5">
+                                <a href="#header" style="text-decoration:none">
+                                    <font face="Verdana" color="black" size="4">
+                                        <b>Back to top</b>
+                                    </font>
+                                </a>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Footer2(end)-->
+
+</body>
+
+</html>

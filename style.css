@@ -1,0 +1,96 @@
+body {
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url('cv-back.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 12 rem;
+}
+
+nav {
+    text-align: right;
+
+}
+
+header>p {
+    float: left;
+    color: rgb(109, 57, 109)
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1px;
+
+}
+
+nav ul li a {
+    color: rgb(109, 57, 109);
+    text-decoration: double;
+}
+
+nav ul {
+    float: right;
+
+}
+
+
+main section:nth-child(1) {
+    margin-top: 1rem;
+    padding: 2rem;
+
+}
+
+main section:nth-child(1) h3 {
+    color: rgb(120, 32, 192);
+}
+
+main section:nth-child(1) article {
+    background-color: rgba(180, 30, 230, 0.19);
+    color: white;
+    width: auto;
+    padding: 2rem;
+}
+
+
+main section:nth-child(2) {
+    margin-top: 1rem;
+    padding: 2rem;
+
+}
+
+main section:nth-child(2) h3 {
+    color: rgb(120, 32, 192);
+}
+
+main section:nth-child(2) article {
+    background-color: rgba(180, 30, 230, 0.19);
+    color: white;
+    width: auto;
+    padding: 2rem;
+}
+
+
+main section:nth-child(3) {
+    margin-top: 1rem;
+    padding: 2rem;
+
+}
+
+main section:nth-child(3) h3 {
+    color: rgb(120, 32, 192);
+}
+
+main section:nth-child(3) article {
+    background-color: rgba(180, 30, 230, 0.19);
+    color: white;
+    width: auto;
+    padding: 2rem;
+}
+
+footer{
+    background: white;
+    padding:1rem;
+    width: 100%;
+    
+}
+
+footer 
