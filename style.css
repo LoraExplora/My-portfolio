@@ -1,15 +1,18 @@
 body {
-    background-size: cover;
+    background-size: auto;
     background-repeat: repeat;
     background-color: #F7C2F8;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2rem 12 rem;
 }
-header img {
-    height: 50px;
-}
-main img {
-    height: 30px;
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
 }
 
 nav {
@@ -19,18 +22,20 @@ nav {
 
 header>p {
     float: left;
-    color: rgb(109, 57, 109)
+    color: rgb(109, 57, 109);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 1px;
+    margin: 20px;
 
 }
 
 nav ul li a {
     color: rgb(109, 57, 109);
-    text-decoration: double;
+    text-decoration: bold;
+
 }
 
 nav ul {
@@ -40,7 +45,7 @@ nav ul {
 
 
 main section:nth-child(1) {
-    margin-top: 1rem;
+    margin-top: 3rem;
     padding: 2rem;
 
 }
@@ -57,46 +62,29 @@ main section:nth-child(1) article {
 }
 
 
-main section:nth-child(2) {
-    margin-top: 1rem;
-    padding: 2rem;
+
+
+.footer1 {
+    color: #7820c0;
+    padding: 1rem;
+    height: 30px;
+    background-color: aliceblue;
+    text-align: center;
 
 }
 
-main section:nth-child(2) h3 {
-    color: rgb(120, 32, 192);
-}
+.footer2 {
 
-main section:nth-child(2) article {
-    background-color: rgba(180, 30, 230, 0.19);
-    color: white;
-    width: auto;
-    padding: 2rem;
-}
-
-
-main section:nth-child(3) {
-    margin-top: 1rem;
-    padding: 2rem;
+    background-color: #F7C2F8;
+    color: #7820c0;
 
 }
 
-main section:nth-child(3) h3 {
-    color: rgb(120, 32, 192);
+.footer2 i {
+    text-align: left;
 }
 
-main section:nth-child(3) article {
-    background-color: rgba(180, 30, 230, 0.19);
-    color: white;
-    width: auto;
-    padding: 2rem;
+.footer2 a b {
+    text-align: right;
+    padding-left: 875px;
 }
-
-footer{
-    background: white;
-    padding:1rem;
-    width: 100%;
-    
-}
-
-footer 
