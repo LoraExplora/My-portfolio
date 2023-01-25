@@ -8,7 +8,10 @@ body {
 header img {
     height: 50px;
 }
+main img {
 
+height: 30px;
+}
 
 nav {
     text-align: right;
