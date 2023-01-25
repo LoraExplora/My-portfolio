@@ -17,6 +17,10 @@ header {
     height: 80px;
 }
 
+main section img {
+    height: 60px;
+}
+
 nav {
     text-align: right;
 
