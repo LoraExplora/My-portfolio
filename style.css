@@ -5,9 +5,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 2rem 12 rem;
 }
-header img {
-    height: 50px;
-}
+
 header {
     background-color: white;
     position: fixed;
@@ -15,37 +13,46 @@ header {
     left: 0;
     right: 0;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
-main section img {
-    height: 60px;
-}
-
-nav {
-    text-align: right;
+header img {
+    height: 76px;
 
 }
 
-header>p {
+main img {
+    height: 248px;
     float: left;
-    color: rgb(109, 57, 109);
-    font-family: Arial, Helvetica, sans-serif;
+    width: auto; 
+    
+    
 }
 
-nav ul li {
+header nav {
+    text-align: right;
+    padding-left: 850px;
+
+}
+
+header * {
     display: inline-block;
-    margin: 20px;
 
 }
 
-nav ul li a {
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+header nav ul li a {
     color: rgb(109, 57, 109);
     text-decoration: bold;
-
-}
-
-nav ul {
-    float: right;
 
 }
 
@@ -65,6 +72,7 @@ main section:nth-child(1) article {
     color: white;
     width: auto;
     padding: 2rem;
+    
 }
 
 
@@ -76,6 +84,7 @@ main section:nth-child(1) article {
     height: 30px;
     background-color: aliceblue;
     text-align: center;
+    
 
 }
 
