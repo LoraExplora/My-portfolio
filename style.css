@@ -24,10 +24,16 @@ header img {
 
 main img {
     height: 248px;
+    float: right;
+
+
+}
+
+.projects img {
+    height: auto;
     float: left;
-    width: auto; 
-    
-    
+
+
 }
 
 header nav {
@@ -72,7 +78,7 @@ main section:nth-child(1) article {
     color: white;
     width: auto;
     padding: 2rem;
-    
+
 }
 
 
@@ -84,7 +90,7 @@ main section:nth-child(1) article {
     height: 30px;
     background-color: aliceblue;
     text-align: center;
-    
+
 
 }
 
