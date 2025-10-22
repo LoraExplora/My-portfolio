@@ -5,41 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lora Antonova Portfolio</title>
     <style>
-         {
-            box-sizing: border-box;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         body {
             font-family: 'Poppins', Arial, sans-serif;
-            background: #f4f4f4;
-            color: #333;
+            background: linear-gradient(to bottom right, #b6a0ca, #e97fbe); 
+            color: white;
             line-height: 1.6;
         }
 
         a {
+            color: #ffe6ff;
             text-decoration: none;
-            color: #b80000;
             transition: color 0.3s;
         }
 
         a:hover {
-            color: #ff3b3b;
+            color: #ffffff;
         }
 
         header {
-            background: #b80000;
-            color: white;
-            padding: 20px 0;
             text-align: center;
+            padding: 30px 0;
         }
 
         header img {
-            width: 120px;
+            width: 180px;
             border-radius: 50%;
-            border: 3px solid white;
-            margin-bottom: 10px;
+            border: 4px solid rgba(255, 255, 255, 0.7);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+
+        header img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
         }
 
         nav ul {
@@ -48,102 +52,63 @@
             justify-content: center;
             flex-wrap: wrap;
             gap: 20px;
+            margin-top: 15px;
         }
 
         nav ul li a {
-            color: white;
             font-weight: bold;
             padding: 6px 12px;
-            border-radius: 4px;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: background 0.3s;
         }
 
         nav ul li a:hover {
-            background-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.4);
         }
 
         main {
-            max-width: 1000px;
+            max-width: 900px;
             margin: 20px auto;
             padding: 0 20px;
         }
 
         section {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
             padding: 20px;
+            margin-bottom: 25px;
         }
 
         section h3 {
-            color: #b80000;
-            margin-bottom: 15px;
             text-align: center;
-        }
-
-        section img {
-            display: block;
-            max-width: 200px;
-            border-radius: 10px;
-            margin: 0 auto 15px auto;
-        }
-
-        article {
-            padding: 10px;
+            color: #ffe6ff;
+            margin-bottom: 15px;
         }
 
         article i {
             display: block;
         }
 
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
         ul li {
             margin-bottom: 10px;
         }
 
-        ul li ul {
-            margin-top: 5px;
-            margin-left: 20px;
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid #ccc;
-            margin: 10px 0;
-        }
-
-        .projects a, .footer1 a {
-            margin-left: 5px;
-        }
-
-        .footer1, .footer2 {
+        .footer {
             text-align: center;
-            margin-top: 20px;
+            margin: 30px 0;
+            font-size: 14px;
+            color: #ffe6ff;
         }
 
-        .footer1 b, .footer2 i {
-            display: inline-block;
-            margin: 5px;
-        }
-
-        .footer2 a {
-            display: block;
-            margin-top: 5px;
-            color: #b80000;
+        .footer a {
+            margin-left: 5px;
         }
 
         @media (max-width: 768px) {
             nav ul {
                 flex-direction: column;
                 gap: 10px;
-            }
-
-            section img {
-                max-width: 150px;
             }
         }
     </style>
@@ -166,11 +131,10 @@
     <main>
         <section id="about">
             <h3>About Me</h3>
-            <img src="lora-pic.jpg" alt="Lora">
             <article>
                 <i>
                     Thanks for your interest! Here's a quick story of me and this website.<br><br>
-                    I am a Junior QA Engineer, eager to improve my skills. I work at a Bulgarian startup and simultaneously learn and practice HTML & CSS.<br><br>
+                    I am a QA Engineer, eager to improve my skills. Currently working as a Quality Assurance Engineer in a financing company.<br><br>
                     My role is to ensure final products meet quality standards, including preparing QA policies, performing inspections, and collaborating with teams to resolve issues.<br><br>
                     This website is part of my learning journey in HTML & CSS. Thanks for visiting!<br><br>
                     Regards,<br>
@@ -181,7 +145,6 @@
 
         <section id="projects">
             <h3>Projects</h3>
-            <img src="lora-projects.jpg" alt="Projects">
             <article>
                 <ul>
                     <li>
@@ -238,21 +201,12 @@
                     <li><b>Location:</b> Sofia, Bulgaria</li>
                 </ul>
             </article>
-
-            <div class="footer1">
-                <b>LinkedIn</b><a href="https://www.linkedin.com/in/lora-antonova/" target="_blank">➲</a>
-                <b>GitHub</b><a href="https://github.com/LoraTheQA" target="_blank">➲</a>
-                <b>Instagram</b><a href="https://www.instagram.com/pieceoflora/?hl=en" target="_blank">➲</a>
-                <b>Email</b><a href="https://www.icloud.com/" target="_blank">➲</a>
-                <b>Website</b><a href="https://pieceoflora.wordpress.com/" target="_blank">➲</a>
-            </div>
-
-            <div class="footer2">
-                <i>Designed by Lora Antonova. All rights reserved.</i><br>
-                <a href="#top"><b>Back to top</b></a>
-            </div>
         </section>
     </main>
+
+    <div class="footer">
+        <i>Designed by Lora Antonova. All rights reserved.</i>
+    </div>
 </body>
 </html>
 
